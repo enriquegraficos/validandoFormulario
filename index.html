@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with javascript</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="container-contact">
+            <h1>Let's talk on something great together</h1>
+            <p>enriquegraficos@gmail.com</p>        
+            <p>+503 7510-6166</p>
+            <p>San Salvador, El Salvador</p>
+           
+        </div>
+        <form action="formulario" id="formulario">
+            <div class="container-input">
+                <label for="name">Your name</label>
+                <input type="text" id="name">
+            </div>
+            <div class="container-input">
+                <label for="name">Your email</label>
+                <input type="text" id="email">
+            </div>
+            <div class="container-input">
+                <label for="name">Your message</label>
+                <input type="text" id="message">
+            </div>
+            <button type="submit" id="submit" disabled class="submit">Send message</button>
+        </form>
+    </main>
+</body>
+<script src="./js/index.js"></script>
+</html>

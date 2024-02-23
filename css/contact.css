@@ -1,0 +1,15 @@
+h1{
+    font-size: 60px;
+    color: white;
+}
+
+p{
+    font-size: 24px;
+    color: white;
+}
+
+.container-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
